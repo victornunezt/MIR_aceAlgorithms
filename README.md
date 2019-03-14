@@ -7,6 +7,8 @@ To run this notebook, you should have installed the following libraries:
 - **Mir-eval library** *(https://pypi.org/project/mir_eval/)*
 - **pygments library** *(https://pypi.org/project/Pygments/)*
 - **some common scientific libraries**: numpy, ipython, matplotlib, cython.
+
+
 Some folders and directories are created in order to organize the files we create in the process. This directories can be changed in the running feature extraction and running mireval sections, but remember to create the folders:
 
 - **soundsDir** *('sounds/' by default)*: directory for the audio dataset (already provided)
