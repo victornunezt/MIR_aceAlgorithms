@@ -8,6 +8,7 @@ To run this notebook, you should have installed the following libraries:
 - **pygments library** *(https://pypi.org/project/Pygments/)*
 - **some common scientific libraries**: numpy, ipython, matplotlib, cython.
 
+If you prefer, you can also use a MIR toolbox docker with all these libraries already installed: *https://github.com/MTG/MIR-toolbox-docker*
 
 Some folders and directories are created in order to organize the files we create in the process. This directories can be changed in the running feature extraction and running mir-eval sections, but remember to create the folders:
 
