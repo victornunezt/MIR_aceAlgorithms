@@ -12,7 +12,7 @@ If you prefer, you can also use a MIR toolbox docker with all these libraries al
 
 Some folders and directories are created in order to organize the files we create in the process. This directories can be changed in the running feature extraction and running mir-eval sections, but remember to create the folders:
 
-- **soundsDir** *('sounds/' by default)*: directory for the audio dataset (already provided)
+- **soundsDir** *('sounds/' by default)*: directory for the audio dataset folders. Audio-aligned jazz harmony dataset (JAAH) is used. *(https://github.com/MTG/JAAH)*
 - **outputDir**= *('outputFiles/' by default)*: directory for some low-level descriptors (created during feature extraction)
 - **predictDir** = *('annotations/predicted/' by default)*: directory for predictions of the algorithms in .lab format (created during feature extraction) 
 - **refDir**= *('annotations/reference/' by default)*: directory for reference annotations in .lab format (already provided)
